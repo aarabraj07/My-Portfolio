@@ -1,0 +1,103 @@
+body{
+    background-image: url("Neon AI Earth Held by Robot Hand.png");
+    background-size: cover;
+}
+div img{
+    width: 50px;
+    height: 50px;
+   
+ }
+
+.container{
+    width: 32%;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+   
+  
+}
+.container>div{
+   color:aliceblue;
+   
+
+}
+.container >div:hover{
+    transform: scale(1.2);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color:orangered;
+}
+.main{
+    width: 90%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#photo img{
+    width: 500px;
+    height:500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+}
+#photo img:hover{
+    transform: scale(1.1);
+}
+#intro{
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 30px black;
+    
+}
+#intro h1{
+    color:orangered;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#intro p{
+    color:whitesmoke;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+}
+hr{
+    margin-bottom: 30px;
+}
+#intro button{
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.09);
+
+}
+
+
